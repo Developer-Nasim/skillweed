@@ -1,0 +1,240 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .recom-wrp {
+        padding: 150px 0;
+    }
+    .recom-wrp h1 { 
+        font-size: 40px; 
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .allcourses nav button {
+        margin: 0 5px;
+        padding: 8px 20px;
+    }
+    .course-blk h5 { 
+        line-height: 24px; 
+    }
+    .recom-wrp h1 { 
+        font-size: 35px; 
+    }
+    .recom-wrp {
+        padding: 80px 0;
+    }
+    .trans-wrp h1 {
+        line-height: 36px;
+        font-size: 32px;
+    }
+    .recom-wrp {
+        padding: 100px 0;
+    }
+    .recom-wrp h1 { 
+        font-size: 34px; 
+    }
+    .blks { 
+        margin-bottom: 60px; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .allcourses nav button {
+        margin: 0 5px;    
+        margin-bottom: 10px;
+    }
+    .allpartners img {
+        margin: 0 15px;
+    }
+    .trans-wrp {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .Newslatter-area {
+        padding: 150px 0; 
+    }
+    .hero-single-item h1 {
+        font-size: 60px; 
+        line-height: 70px;
+    }
+    .hero-single-item{
+        background-position: bottom !important;
+    }
+
+    .recommendations-area img { 
+        position: unset;
+        width: 60%;
+        height: auto; 
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .recom-wrp {
+        padding: 0px 0;
+        padding-bottom: 30px;
+    }
+    .course-rv { 
+        width: 92%; 
+        margin-top: 50px;
+    }
+    .blks {
+        margin-bottom: 60px;
+        padding-top: 15px;
+    }
+    .cta-wrp h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .allpartners { 
+        padding-top: 10px;
+    }
+    .allcourses nav button {
+        margin: 0 5px;    
+        margin-bottom: 10px;
+    }
+    .allpartners img {
+        margin: 0 10px;
+        margin-top: 15px;
+        height: 40px;
+    }
+    .trans-wrp {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .Newslatter-area {
+        padding: 90px 0; 
+    }
+    .hero-single-item h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .hero-single-item{
+        background-position: bottom !important;
+    }
+    .getALl img {
+        width: 20%;
+    }
+    .recom-wrp h1 { 
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .section-title h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .trans-wrp h1 { 
+        line-height: 27px; 
+        font-size: 24px;
+    }
+    .trans-img img { 
+        height: 300px; 
+    }
+    .newslatter h2 {  
+        font-size: 26px;
+    }
+    .newslatter form input {
+        width: 100%;
+        height: 50px; 
+    }
+    .newslatter form {
+        display: block; 
+    }
+    .newslatter form button {
+        height: 50px;
+        width: 100%;  
+        font-size: 18px; 
+    }
+    .footer-wrp {
+        margin-top: 30px;
+    }
+    .footer-area {
+        padding-top: 30px;
+    }
+    .footer-social ul { 
+        padding: 0 0px; 
+    }
+    .footer-social:after{
+        display: none;
+    }
+    .footer-social ul li a {  
+        margin: 0 5px; 
+    }
+    .footer-social { 
+        margin: 35px 0;
+    }
+    .owl-prev, .owl-next { 
+        left: 15px; 
+    }
+    .owl-next {
+        left: auto;
+        right: 15px;
+    }
+    .hero-single-item {
+        padding-top: 70px;
+        padding-bottom: 115px;
+    }
+    .course-blk h5 { 
+        line-height: 24px; 
+    }
+    .Transforms-area { 
+        padding: 50px 0;
+    }
+    .recommendations-area img { 
+        position: unset;
+        width: 80%;
+        height: auto; 
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .recom-wrp {
+        padding: 0px 0;
+        padding-bottom: 30px;
+    }
+    .course-rv { 
+        width: 89%; 
+        margin-top: 50px;
+    }
+    .blks {
+        margin-bottom: 60px;
+        padding-top: 15px;
+    }
+    .cta-wrp h1 {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .blks h3 {
+        font-size: 28px;
+    }
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
